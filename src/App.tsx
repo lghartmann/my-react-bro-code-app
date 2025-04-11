@@ -2,9 +2,12 @@ import Button from "./Button";
 import Card from "./Card";
 import ColorPicker from "./ColorPicker";
 import Counter from "./Counter";
+import DigitalClock from "./DigitalClock";
 import List from "./List";
 import MyComponent from "./MyComponent";
 import NewButton from "./NewButton";
+import NewComponent from "./NewComponent";
+import StopWatch from "./StopWatch";
 import Student from "./Students";
 import TodoList from "./TodoList";
 import UserGreeting from "./UserGreeting";
@@ -25,6 +28,16 @@ function App() {
   ];
   return (
     <>
+      <StopWatch />
+      <br></br>
+      <br></br>
+      <DigitalClock />
+      <br></br>
+      <br></br>
+      <NewComponent />
+      {/* <br></br>
+      <br></br>
+      <br></br>
       <TodoList />
       <br></br>
       <br></br>
@@ -50,7 +63,7 @@ function App() {
       <Card />
       <Card />
       <Card />
-      <Button />
+      <Button /> */}
     </>
   );
 }
